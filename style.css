@@ -1,0 +1,451 @@
+@font-face {
+    font-family: 'merienda-bold';
+    src: url('font/Merienda-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'permanent-maker';
+    src: url('font/PermanentMarker.ttf');
+}
+
+@font-face {
+    font-family: 'poppin-light';
+    src: url('font/Poppins-Light.otf');
+}
+
+@font-face {
+    font-family: 'poppin-medium-italic';
+    src: url('font/Poppins-MediumItalic.otf');
+}
+
+@font-face {
+    font-family: 'poppin-semibold-italic';
+    src: url('font/Poppins-SemiBoldItalic.otf');
+}
+
+@font-face {
+    font-family: 'poppin-regular';
+    src: url('font/Poppins-Regular.otf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'poppin-light', 'Times New Roman', Times, serif !important;
+}
+
+hr {
+    width: 80%;
+    height: 4px;
+    opacity: 100%;
+    margin: 0px auto;
+    color: grey;
+}
+
+.navbar-brand {
+    font-family: 'merienda-bold', 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    font-size: 15px;
+}
+
+#nav {
+    background-color: #fff;
+}
+
+.nav-green {
+    background-color: #b4fe98 !important;
+    transition: .5s;
+}
+
+/* banner */
+.banner {
+    margin-top: 75px;
+    padding: 10px;
+}
+
+.banner .salam {
+    font-size: 20px;
+}
+
+.banner .judul {
+    font-size: 28px;
+    font-family: 'merienda-bold', 'Times New Roman', Times, serif;
+}
+
+.banner .intro {
+    margin-top: 90px;
+}
+
+.banner img {
+    width: 520px;
+}
+
+.banner .icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner .icon p {
+    font-size: 12px;
+}
+
+.banner .btn{
+    background-color: #b4fe98;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.banner .btn:hover {
+    background-color: #6C63FF;
+    color: white;
+}
+/* end banner */
+
+/* sejarah */
+.sejarah {
+    padding: 10px;
+    font-family: 'poppin-light', sans-serif 'Times New Roman', Times, serif;
+    background-color: #b4fe98;
+   
+}
+
+.sejarah .card{
+    border-radius: 10px;
+    -webkit-box-shadow: -4px 2px 29px -1px rgba(152,154,156,0.93); 
+box-shadow: -4px 2px 29px -1px rgba(152,154,156,0.93);
+background-color: #f4f9f9;
+}
+
+.card-title {
+    font-family: 'merienda-bold';
+    font-size: 23px;
+}
+
+.sejarah .card-text {
+    font-size: 14px;
+}
+
+.sejarah .card-text span {
+    font-family: 'poppin-regular', 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.sejarah .card-text a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+.sejarah hr {
+    margin-top: 12px;
+}
+/* end sejarah */
+
+/* produk */
+.produk .judul {
+    font-family: 'merienda-bold', 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.produk hr {
+    margin-top: -10px;
+}
+
+.card-img-top {
+    width: 120px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.produk .card {
+    background-image: linear-gradient(to right bottom, #b4fe98, #a5fa9a, #96f59c, #87f19e, #77eca1, #6ae7a3, #5ce3a6, #4edea8, #40d9ab, #30d3ad, #1eceaf, #00c8b0);
+    box-shadow: none;
+    border: 2px solid #072227;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: #6C63FF;
+    border-radius: 10px;
+}
+
+.produk .card-text {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'poppin-regular', 'Times New Roman', Times, serif;
+}
+
+.produk .card-img-top:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+/* end produk */
+
+/* harga */
+
+.harga .card {
+    border-radius: 10px;
+    border: 2px solid #072227;
+    background-image: linear-gradient(to right bottom, #b4fe98, #a5fa9a, #96f59c, #87f19e, #77eca1, #6ae7a3, #5ce3a6, #4edea8, #40d9ab, #30d3ad, #1eceaf, #00c8b0);
+}
+
+.harga .card-title{
+    font-size: 20px;
+    font-family: 'poppin-regular', 'Times New Roman', Times, serif;
+}
+
+.harga .judul {
+    font-family: 'merienda-bold', 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.harga .card-img-top {
+    width: 100px;
+}
+
+.harga .card hr {
+    width: 80%;
+    height: 2px;
+    opacity: 100%;
+    margin: 0px auto;
+    color: grey;
+    margin-top: -5px;
+}
+
+.harga .card-text {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.harga .card-text span {
+    font-size: 25px;
+}
+/* end harga */
+
+/* price */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    max-width: 400px;
+    margin: 0 auto;
+    border: none;
+}
+
+.menu{
+    width: 100%;
+}
+
+.content {
+    width: 50%;
+    margin: auto !important;
+}
+
+option {
+   background-color: #eee;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #b4fe98, #a5fa9a, #96f59c, #87f19e, #77eca1, #6ae7a3, #5ce3a6, #4edea8, #40d9ab, #30d3ad, #1eceaf, #00c8b0);
+    border: 2px solid white;
+    text-align: center;
+    appearance: none;
+    border: 2px solid #072227;
+}
+
+.data {
+    display: none;
+}
+
+.price {
+    display: none;
+}
+
+.price .card{
+    background-image: linear-gradient(to right bottom, #b4fe98, #a5fa9a, #96f59c, #87f19e, #77eca1, #6ae7a3, #5ce3a6, #4edea8, #40d9ab, #30d3ad, #1eceaf, #00c8b0);
+    border-radius: 10px;
+    border: 2px solid #072227;
+}
+
+.price .judul {
+    font-size: 28px;
+    font-family: 'merienda-bold', 'Times New Roman', Times, serif;
+}
+
+.price .card-img-top{
+    width: 110px;
+}
+
+.price {
+    text-align: center;
+}
+
+.price .card hr {
+    width: 75%;
+    height: 2px;
+    opacity: 100%;
+    margin: 0px auto;
+    color: grey;
+    margin-top: -15px;
+}
+
+.price .card-judul {
+        font-size: 22px !important;
+        font-family: 'poppin-regular', 'Times New Roman', Times, serif;
+}
+
+.price .card-text {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.price .card-text span {
+    font-size: 25px;
+}
+
+/* end price */
+
+.keunggulan{
+    background-color: #b4fe98;
+}
+
+.keunggulan .judul{
+    font-size: 28px;
+    font-family: 'merienda-bold', 'Times New Roman', Times, serif;
+}
+
+.keunggulan img {
+    width: 100px;
+}
+
+.keunggulan .card {
+    border-radius: 10px;
+    background-color: #b4fe98;
+    border: 2px solid #072227;
+}
+
+.keunggulan .card-title{
+    font-family: 'poppin-semibold-italic';
+    font-size: 20px;
+}
+
+.keunggulan .card-text{
+    font-family: 'poppin-light', 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* kontak */
+.kontak {
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.kontak .form {
+    background: rgba( 244, 249, 249, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0.5px );
+-webkit-backdrop-filter: blur( 0.5px );
+border-radius: 10px;
+padding: 15px;
+border: 2px solid #072227;
+}   
+
+.kontak h4 {
+    font-family: 'merienda-bold';
+}
+
+.kontak p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.kontak label {
+    font-size: 16px;
+}
+
+.kontak button {
+    font-size: 12px;
+    width: 80px;
+}
+/* end kontak */
+
+/* kontak */
+.kontak textarea {
+    border: none;
+}
+/* end konrak */
+
+/* copyright */
+.copyright {
+    background-color: #b4fe98;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.copyright .awal {
+    margin: auto;
+    padding: 0px 20px; 
+}
+
+.copyright a {
+    display: block;
+}
+
+.copyright p {
+    font-size: 20px;
+    font-family: 'merienda-bold', 'Times New Roman', Times, serif;
+}
+
+.copyright a{
+    text-decoration: none;
+    color:black;
+}
+
+.copyright a:hover{
+    text-decoration: underline;
+}
+
+.copyright iframe {
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid #072227;
+}
+/* end copyright */
+
+/* footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer .icon {
+    margin-top: -10px !important;
+}
+
+.footer .bi {
+    font-size: 16px;
+    margin-right: 10px;
+}
+/* end footer */
