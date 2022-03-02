@@ -635,28 +635,34 @@
             <hr>
           </div>
         </div>
-        <div class="row justify-content-center mt-3">
-          <div class="col-lg-7 col-md-10 col-sm-12">
-            <div class="form">
-              <p class="text-center">Formulir</p>
-              <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Nama :</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Masukan Nama">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlEmaill1" class="form-label">Email :</label>
-              <input type="email" class="form-control" id="exampleFormControlEmail1" placeholder="Masukan Email">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Pesan :</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Pesan"></textarea>
-            </div>
+        <form action="https://formsubmit.co/bsadewa603@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Pesan Baru !">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+            <div class="row justify-content-center mt-3">
+              <div class="col-lg-7 col-md-10 col-sm-12">
+                <div class="form">
+                  <p class="text-center">Formulir</p>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nama :</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Masukan Nama" name="name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlEmaill1" class="form-label">Email :</label>
+                    <input type="email" class="form-control" id="exampleFormControlEmail1" placeholder="Masukan Email" name="email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Pesan :</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Masukan Pesan" name="message" required></textarea>
+                  </div>
             <button type="button" class="btn btn-primary">Kirim</button> 
   
           </div>
             
           </div>
         </div>
+        </form>
+
       </div>
     </section>
        <!-- end kontak -->
@@ -669,10 +675,10 @@
                   <p>PT. Bahtera Tri Samudera</p>
                   <br>
                   <a href="">Lobi</a>
-                  <a href="" class="mt-2">Tentang Kami</a>
-                  <a href="" class="mt-2">Produk</a>
-                  <a href="" class="mt-2">Harga</a>
-                  <a href="" class="mt-2">Hubungi Kami</a>
+                  <a href="#" class="mt-2">Tentang Kami</a>
+                  <a href="#produkharga" class="mt-2">Produk</a>
+                  <a href="#produkharga" class="mt-2">Harga</a>
+                  <a href="#kontak" class="mt-2">Hubungi Kami</a>
               </div>
 
               <div class="col-lg-6 col-md-12 text-center">
