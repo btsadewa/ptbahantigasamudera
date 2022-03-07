@@ -53,15 +53,22 @@ hr {
 .nav-link {
   color: black;
   font-size: 15px;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  font-weight: bold;
+  transform: scale(1.1);
 }
 
 .navbar {
   background-color: #fff;
+  transition: 0.8s;
 }
 
 .nav-green {
   background-color: #b4fe98 !important;
-  transition: 0.5s;
 }
 
 /* banner */
